@@ -99,8 +99,31 @@ canvas{
     width: 768px;
 }
 
+/* Adjust for mobile screens */
+
+@media only screen and (max-width: 768px) {
+
+  .head-index {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    line-height: unset;
+  }
+
+  .head-nav {
+    float: unset;
+  }
+
+  .head-title {
+    font-size-adjust: ;
+    float: unset;
+  }
+
+}
+
 .head-title {
-    font-size: 1.875rem;
+    font-size: 1.5rem;
     font-weight: normal;
     color: #111D4A;
     float: left;
