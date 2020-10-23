@@ -1,4 +1,4 @@
-title: Oskar Floeck
+title: floeck's blog
 author:
   name: Have a question?
   email: oskar.floeck@gmail.com
@@ -53,10 +53,7 @@ minima:
 
 # If you want to link only specific pages in your header, uncomment
 # this and add the path to the pages in order as they should show up
-header_pages:
-  - portfolio.md
-  - contact.md
-  - about.md
+#header_pages:
 
 # Build settings
 theme: minima

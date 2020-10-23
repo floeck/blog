@@ -20,3 +20,8 @@ I think this is such a great question. It immediately gets my brain going and fi
 ### Assumptions
 
 1. The two people
+
+```python
+s = "Python syntax highlighting"
+print s
+```

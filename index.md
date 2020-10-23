@@ -8,4 +8,4 @@
 layout: home
 ---
 
-Below you may find and if you dare, explore the strange menagerie that is my mind and thoughts in an all somewhat comprehensible form. By looking further, you may also discover that you can contact me, read into something that may or may not have anything to do with me, and see my portfolio, where my projects come to rest. And occasionally mold.
+Welcome traveller! There is no real goal or direction of this blog, as it's more of an outlet for me to discuss and make sense of particular thoughts I've been having. As should be the norm, the thoughts and views expressed in these writings are of my own, not some other third party.
