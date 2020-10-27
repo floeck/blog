@@ -2,7 +2,6 @@
 layout: post
 title: 'Two People: One World'
 date: 2020-09-28 14:47
-category: thought-experiment
 tags: [interesting, thought-provoking, question, experiment]
 summary: 
 ---

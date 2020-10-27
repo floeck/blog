@@ -2,7 +2,7 @@
 layout: post
 title: Pineapples & Pizza
 date: 2020-06-02 19:29
-tags: []
+tags: [general]
 summary: A little writing on differences
 ---
 

@@ -3,9 +3,8 @@ layout: default
 ---
 
 <div class="home">
- 
+  
   {{ content }}
-
 
   {% if site.paginate %}
     {% assign posts = paginator.posts %}
@@ -13,6 +12,20 @@ layout: default
     {% assign posts = site.posts %}
   {% endif %}
 
+  <div class="tags">
+    {%- assign default_paths = site.pages | map: "path" -%}
+    {%- assign page_paths = site.header_pages | default: default_paths -%}
+    {%- assign titles_size = site.pages | map: 'title' | join: '' | size -%}
+    {%- if titles_size > 0 -%}
+    <div id="tags-c">tags:</div>
+      {%- for path in page_paths -%}
+        {%- assign my_page = site.pages | where: "path", path | first -%}
+        {%- if my_page.title -%}
+        <a class="page-link" href="{{ my_page.url | relative_url }}">{{ my_page.title | escape }}</a>
+        {%- endif -%}
+      {%- endfor -%}
+    {%- endif -%}
+  </div>
 
   {%- if posts.size > 0 -%}
     {%- if page.list_title -%}

@@ -2,7 +2,7 @@
 layout: post
 title: Hello, world
 date: 2020-05-31 13:36
-tags: [me]
+tags: [general]
 summary: My first and hopefully not last blog post on my personal site.
 ---
 

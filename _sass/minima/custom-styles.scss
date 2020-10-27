@@ -56,3 +56,31 @@ code, pre {
     border: 0px solid $border-color-01;
     border-radius: 0px;
 }
+
+// Site tag section
+
+.tags {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+
+    padding-bottom: 2%;
+}
+
+#tags-c {
+    padding-right: 10px;
+}
+
+.tags a{
+    padding-right: 10px;
+}
+
+.posts li {
+    padding-bottom: 10px;
+}
+
+// Reduce home content spacing
+
+.post-list li {
+    margin-bottom: 15px;
+}
